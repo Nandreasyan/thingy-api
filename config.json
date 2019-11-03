@@ -1,0 +1,24 @@
+{
+	"thingy": {
+		"devices": {
+			"notice": "auto-populated since Uris are not constant"
+		},
+		"IDS": {
+			"notice": "auto-generated from devices"
+		},
+		"services": {
+			"Thingy Configuration Service": "configuration",
+			"Thingy Environment Service": "environment",
+			"Thingy User Interface Service": "user_interface"
+		},
+		"characteristics": {
+			"Thingy Name Characteristic": "name",
+			"Thingy Temperature Characteristic": "temperature",
+			"Thingy Light Intensity Characteristic": "light_intensity"
+
+		},
+		"UUIDS": {
+			"notice": "auto-generated from services & characteristics"
+		}
+	}
+}
