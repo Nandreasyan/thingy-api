@@ -5,6 +5,7 @@ const client = redis.createClient();
 let timestamp = new Date().getTime();
 
 // in this file we will save the data in the database!
+//still needs to add to the database
 
 mqtt.on('temperature', async ({data}) => {
     const temperature = parseFloat(data);
